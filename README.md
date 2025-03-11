@@ -101,10 +101,10 @@ data-warehouse-project/
 Per the owner of this project, it is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution. 
 
 ## Project Credits
-This project was built following the YouTube tutorial from Baraa Khatib Salkini/Data With Baraa: https://www.youtube.com/watch?v=9GVqKuTVANE. I have no affiliation with Baraa or their channel and this project was build and modified from with the goal to be added to my GitHub repository as part of my professional portfolio.  
+This project was built following the YouTube tutorial from Baraa Khatib Salkini/Data With Baraa: https://www.youtube.com/watch?v=9GVqKuTVANE. I have no affiliation with Baraa or their channel and the goal to replicate and modify this project on my GitHub repository is to be presented as part of my professional portfolio.  
 
 ## About Me
-I'm **Daniel** and I am business and IT professional passionate about working with data offering enterprise solutions to businesses. 
+I'm **Daniel** and I am a business and IT professional passionate about working with data offering enterprise solutions to businesses. 
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 LinkedIn:
