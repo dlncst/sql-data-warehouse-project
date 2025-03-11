@@ -1,0 +1,1 @@
+To make the local sql server work it must connect to .\SQLEXPRESS and select the option to trust license 
