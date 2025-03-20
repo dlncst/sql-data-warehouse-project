@@ -5,6 +5,7 @@ Once this script is done running, the other script 'proc_load_silver.sql' will i
 data into the silver schema tables
 */
 
+-- Go is used to separete queries so they can all be runned at the same time in a long script like this one
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
 GO
