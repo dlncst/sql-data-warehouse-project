@@ -10,7 +10,7 @@ ddl_silver.sql: Defines the structure of tables in the Silver layer of the data 
 proc_load_silver.sql: Contains a stored procedure to load data into the Silver tables.​
 
 ### Data Transformation Scripts:
-**silver.crm_cust_info.sql:** Processes customer information from the CRM system.  ​
+**silver.crm_cust_info.sql:** Processes customer information from the CRM system.  
 **silver.crm_prd_info.sql:** Handles product information from the CRM system.​  
 **silver.crm_sales_details.sql:** Manages sales details from the CRM system.​  
 **silver.erp_cust_az12.sql:** Processes customer data from the ERP system.​  
