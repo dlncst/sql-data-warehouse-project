@@ -1,3 +1,11 @@
+/* 
+This script defines the Bronze Layer tables in the Data Warehouse project. The Bronze Layer is the raw data unprocessed or 
+lightly processed data from different sources such as CRM and ERP systems.
+
+Each table serves a distinct purpose, and the script follows best practices like: Dropping tables if they exist before creating them (ensures a fresh structure).
+Using appropriate data types like DATE for dates and NVARCHAR for flexible text storage.
+*/ 
+
 -- Drop and create crm_cust_info table
 IF OBJECT_ID('bronze.crm_cust_info', 'TABLE') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
