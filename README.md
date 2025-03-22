@@ -16,11 +16,11 @@ Designed as a portfolio project, it emphasizes industry best practices in data e
 The repository provides a detailed walkthrough of the entire process, from the initial data ingestion to the generation of actionable insights. As a portfolio project, it not only demonstrates technical proficiency but also aligns with industry standards in data warehousing and analytics.​
 
 ## Repository Structure:
-datasets/: Contains the raw CSV files used for data ingestion.​  
-scripts/: Includes SQL scripts for creating tables, performing Extract, Transform, Load (ETL) processes, and implementing data transformations across the Bronze, Silver, and Gold layers.​  
-tests/: Houses test cases to validate data integrity and the accuracy of transformations, ensuring that each stage of the data pipeline functions as intended.​  
-LICENSE: Specifies the MIT license under which the project is distributed, allowing for open use and modification.​  
-README.md: Offers an overview of the project, detailing its purpose, architecture, and instructions for replication or further development.​  
+**datasets/:** Contains the raw CSV files used for data ingestion.​  
+**scripts/:** Includes SQL scripts for creating tables, performing Extract, Transform, Load (ETL) processes, and implementing data transformations across the Bronze, Silver, and Gold layers.​  
+**tests/:** Houses test cases to validate data integrity and the accuracy of transformations, ensuring that each stage of the data pipeline functions as intended.​  
+**LICENSE:** Specifies the MIT license under which the project is distributed, allowing for open use and modification.​  
+**README.md:** contains project and section insights, overview, its purpose, architecture, and instructions for replication or further development.​  
 
 ## Key Highlights:
 
@@ -39,5 +39,5 @@ This project was built following the YouTube tutorial from Baraa Khatib Salkini/
 I'm **Daniel** and I am a business and IT professional passionate about working with data offering enterprise solutions to businesses. 
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
-LinkedIn:
-Email: 
+LinkedIn: https://www.linkedin.com/in/danny-mendez-/
+Email: dmendezcast@gmail.com
