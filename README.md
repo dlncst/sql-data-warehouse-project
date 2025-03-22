@@ -4,15 +4,16 @@ Welcome to my **Data Warehouse and Analytics Project** repository
 This project showcases the approach to building a data warehouse and analytics solution using SQL. 
 Designed as a portfolio project, it emphasizes industry best practices in data engineering and analytics.
 
----
-## Data Architecture  
+
+## Data Architecture
+
 Bronze Layer: This foundational layer stores raw data directly from source systems. In this project, data is ingested from CSV files into a SQL Server Database, 
 ensuring that the original data remains unaltered for future reference.​  
 Silver Layer: At this stage, the project focuses on data cleansing, standardization, and normalization. 
 These processes prepare the data for more efficient analysis by ensuring consistency and reliability.  ​
 Gold Layer: The final layer contains business-ready data, meticulously modeled into a star schema.  
 This structure is optimized for reporting and analytics, facilitating swift and insightful data retrieva
----
+
 ## Project Overview
 
 This project involves:
