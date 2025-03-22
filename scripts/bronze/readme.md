@@ -11,12 +11,12 @@ Purpose:
 Stores customer-related data from the CRM system.
 
 Key Columns & Insights:
-cst_id: Primary customer ID (INT), likely a unique identifier from CRM.
-cst_key: Customer key (NVARCHAR(50)), possibly a system-wide unique identifier.
-cst_firstname, cst_lastname: Customer’s first and last name.
-cst_gndr: Gender (NVARCHAR(10)), suggests values like 'Male', 'Female', 'Other', or 'n/a'.
-cst_marital_status: Marital status (values like 'Single', 'Married', etc.).
-cst_create_date: Customer creation date in the CRM system.
+cst_id: Primary customer ID (INT), likely a unique identifier from CRM.  
+cst_key: Customer key (NVARCHAR(50)), possibly a system-wide unique identifier.  
+cst_firstname, cst_lastname: Customer’s first and last name.  
+cst_gndr: Gender (NVARCHAR(10)), suggests values like 'Male', 'Female', 'Other', or 'n/a'.  
+cst_marital_status: Marital status (values like 'Single', 'Married', etc.).  
+cst_create_date: Customer creation date in the CRM system.  
 
 ### bronze.crm_prd_info (Product Information)
 Purpose:
