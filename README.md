@@ -12,29 +12,24 @@ Designed as a portfolio project, it emphasizes industry best practices in data e
 **Gold Layer:** The final layer contains business-ready data, meticulously modeled into a star schema. This structure is optimized for reporting and analytics, facilitating swift and insightful data retrieva
 
 ## Project Overview
+
 The repository provides a detailed walkthrough of the entire process, from the initial data ingestion to the generation of actionable insights. As a portfolio project, it not only demonstrates technical proficiency but also aligns with industry standards in data warehousing and analytics.​
 
-Repository Structure:
+## Repository Structure:
+datasets/: Contains the raw CSV files used for data ingestion.​  
+scripts/: Includes SQL scripts for creating tables, performing Extract, Transform, Load (ETL) processes, and implementing data transformations across the Bronze, Silver, and Gold layers.​  
+tests/: Houses test cases to validate data integrity and the accuracy of transformations, ensuring that each stage of the data pipeline functions as intended.​  
+LICENSE: Specifies the MIT license under which the project is distributed, allowing for open use and modification.​  
+README.md: Offers an overview of the project, detailing its purpose, architecture, and instructions for replication or further development.​  
 
-datasets/: Contains the raw CSV files used for data ingestion.​
+## Key Highlights:
 
-scripts/: Includes SQL scripts for creating tables, performing Extract, Transform, Load (ETL) processes, and implementing data transformations across the Bronze, Silver, and Gold layers.​
-
-tests/: Houses test cases to validate data integrity and the accuracy of transformations, ensuring that each stage of the data pipeline functions as intended.​
-
-LICENSE: Specifies the MIT license under which the project is distributed, allowing for open use and modification.​
-
-README.md: Offers an overview of the project, detailing its purpose, architecture, and instructions for replication or further development.​
-
-Key Highlights:
-
-ETL Processes: The project meticulously outlines the ETL processes, ensuring that data is accurately extracted from sources, transformed according to business rules, and loaded into the appropriate layers of the data warehouse.​
-
-Data Modeling: Emphasizes the creation of a star schema in the Gold Layer, optimizing data for analytical querying and reporting.​
-
-Analytics: Demonstrates how the structured data can be utilized to derive meaningful business insights, showcasing the practical applications of the data warehouse.
+ETL Processes: The project meticulously outlines the ETL processes, ensuring that data is accurately extracted from sources, transformed according to business rules, and loaded into the appropriate layers of the data warehouse.​  
+Data Modeling: Emphasizes the creation of a star schema in the Gold Layer, optimizing data for analytical querying and reporting.​  
+Analytics: Demonstrates how the structured data can be utilized to derive meaningful business insights, showcasing the practical applications of the data warehouse.  
 
 ## License
+
 Per the owner of this project, it is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution. 
 
 ## Project Credits
