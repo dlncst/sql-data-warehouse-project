@@ -7,99 +7,33 @@ Designed as a portfolio project, it emphasizes industry best practices in data e
 
 ## Data Architecture
 
-**Bronze Layer:** This foundational layer stores raw data directly from source systems. In this project, data is ingested from CSV files into a SQL Server Database, 
-ensuring that the original data remains unaltered for future reference.​  
-**Silver Layer:** At this stage, the project focuses on data cleansing, standardization, and normalization. 
-These processes prepare the data for more efficient analysis by ensuring consistency and reliability.  
-**Gold Layer:** The final layer contains business-ready data, meticulously modeled into a star schema.  
-This structure is optimized for reporting and analytics, facilitating swift and insightful data retrieva
+**Bronze Layer:** This foundational layer stores raw data directly from source systems. In this project, data is ingested from CSV files into a SQL Server Database, ensuring that the original data remains unaltered for future reference.​  
+**Silver Layer:** At this stage, the project focuses on data cleansing, standardization, and normalization. These processes prepare the data for more efficient analysis by ensuring consistency and reliability.  
+**Gold Layer:** The final layer contains business-ready data, meticulously modeled into a star schema. This structure is optimized for reporting and analytics, facilitating swift and insightful data retrieva
 
 ## Project Overview
+The repository provides a detailed walkthrough of the entire process, from the initial data ingestion to the generation of actionable insights. As a portfolio project, it not only demonstrates technical proficiency but also aligns with industry standards in data warehousing and analytics.​
 
-This project involves:
+Repository Structure:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+datasets/: Contains the raw CSV files used for data ingestion.​
 
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+scripts/: Includes SQL scripts for creating tables, performing Extract, Transform, Load (ETL) processes, and implementing data transformations across the Bronze, Silver, and Gold layers.​
 
----
-## Important Links & Tools:
+tests/: Houses test cases to validate data integrity and the accuracy of transformations, ensuring that each stage of the data pipeline functions as intended.​
 
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
-- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
+LICENSE: Specifies the MIT license under which the project is distributed, allowing for open use and modification.​
 
----
+README.md: Offers an overview of the project, detailing its purpose, architecture, and instructions for replication or further development.​
 
-## Project Requirements
+Key Highlights:
 
-### Building the Data Warehouse (Data Engineering)
+ETL Processes: The project meticulously outlines the ETL processes, ensuring that data is accurately extracted from sources, transformed according to business rules, and loaded into the appropriate layers of the data warehouse.​
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Data Modeling: Emphasizes the creation of a star schema in the Gold Layer, optimizing data for analytical querying and reporting.​
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+Analytics: Demonstrates how the structured data can be utilized to derive meaningful business insights, showcasing the practical applications of the data warehouse.
 
----
-
-### BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
-
-For more details, refer to [docs/requirements.md](docs/requirements.md).
-
-## Repository Structure
-```
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-```
----
 ## License
 Per the owner of this project, it is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution. 
 
