@@ -6,7 +6,7 @@ Each table serves a distinct purpose, and the script follows best practices like
 Using appropriate data types like DATE for dates and NVARCHAR for flexible text storage.
 */ 
 
--- Drop and create crm_cust_info table
+
 IF OBJECT_ID('bronze.crm_cust_info', 'TABLE') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
 GO
